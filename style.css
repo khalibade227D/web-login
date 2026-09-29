@@ -73,14 +73,7 @@
     transform-origin: left top;
     transition: transform .2s, color .2s;
   }
-  .field input:focus + label,
-  .field input:not(:placeholder-shown) + label { transform: translateY(-.62rem) scale(.76); }
-  .field input:focus + label { color: var(--teal); }
-  .field input:focus {
-    background: rgba(255,255,255,.1);
-    border-color: var(--teal);
-    box-shadow: 0 0 0 4px rgba(25,211,197,.16);
-  }
+
 
   .eye {
     position: absolute;
